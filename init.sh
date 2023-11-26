@@ -1,3 +1,4 @@
+mysql -e "SET PASSWORD = '123456';";
 mysql -uroot -p123456 < lightnote.sql;
 composer install;
 cp env .env;
