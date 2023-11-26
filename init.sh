@@ -1,0 +1,4 @@
+mysql -uroot -p123456 < lightnote.sql;
+composer install;
+cp env .env;
+wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php -O ./public/adminer.php;
