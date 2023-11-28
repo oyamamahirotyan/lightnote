@@ -43,4 +43,9 @@ class Home extends BaseController
         return view('md');
     }
 
+    public function outSlide()
+    {
+        return view('slide');
+    }
+
 }
