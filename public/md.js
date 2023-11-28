@@ -13,10 +13,4 @@ $(document).ready(function(){
             $('.markdown-body').html(DOMPurify.sanitize(markdownit().render(data)));
         });
     }
-    else{
-        $.get('/api/randNote')
-        .done(function(data){
-            $(location).attr('pathname', '/' + data);
-        });
-    }
 });
