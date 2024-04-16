@@ -22,6 +22,16 @@ body{
     position: fixed;
     box-shadow: 0 0 10px #cfcfcf;
     border-radius: 1px;
+    margin-bottom: 1.5em;
+}
+.about{
+    bottom: 0.75em;
+    position: fixed;
+    margin-left: 0.5em;
+}
+.about a{
+    color: #c1c1c1;
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
